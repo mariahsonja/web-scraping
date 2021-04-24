@@ -23,7 +23,7 @@ The most used python libraries for web scrapping are:
 - **Beautiful Soup:** Considered a parser library, it is used to extract information from XML and HTML files - specially good for not structured documents.
 - **Selenium:** It is a web-driver, so it can be used to open a webpage, click on a button, and get results - data in javascript.
 
-## Running Locally
+### Running Locally
 
 **Environment Dependencies**
 
@@ -48,7 +48,7 @@ If you want to deactivate the environment:
 
 `conda deactivate`
 
-## Using Scrapy
+### Using Scrapy
 
 Go to `scrapy` folder:
 
@@ -58,7 +58,7 @@ Run the `scraper script`:
 
 `scrapy runspider scraper.py`
 
-## Using Requests
+### Using Requests
 Go to `requests` folder:
 
 `cd requests`
@@ -71,7 +71,7 @@ Enter a movie name:
 
 `titanic`
 
-## Using Urllib
+### Using Urllib
 Go to `urllib` folder:
 
 `cd urllib`
@@ -80,7 +80,7 @@ Run the following command:
 
 `python urllib_sample.py`
 
-## Using Beautiful Soap
+### Using Beautiful Soap
 Go to `beautiful_soap` folder:
 
 `cd beautiful_soap`
@@ -89,7 +89,7 @@ Run the following command:
 
 `python beautiful_sample.py`
 
-## Using Selenium
+### Using Selenium
 Go to `selenium` folder:
 
 `cd selenium`
@@ -105,7 +105,7 @@ brew update
 brew install chromedriver
 ```
 
-**References**
+### References
 
 - [Scrapy](https://docs.scrapy.org/en/latest/intro/tutorial.html)
 - [Web Scraping](https://www.digitalocean.com/community/tutorials/how-to-crawl-a-web-page-with-scrapy-and-python-3)
