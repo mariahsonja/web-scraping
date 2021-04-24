@@ -37,51 +37,65 @@ The most used python libraries for web scrapping are:
 **Building the Environment**
 
 Create new environment:
+
 `conda env create --file environment.yml`
 
 Activate the environment you just created:
+
 `source activate web-scraper`
 
 If you want to deactivate the environment:
+
 `conda deactivate`
 
 ## Using Scrapy
 
 Go to `scrapy` folder:
+
 `cd scrapy`
 
 Run the `scraper script`:
+
 `scrapy runspider scraper.py`
 
 ## Using Requests
 Go to `requests` folder:
+
 `cd requests`
 
 Run the following command:
+
 `python requests_sample.py`
 
 Enter a movie name:
+
 `titanic`
 
 ## Using Urllib
 Go to `urllib` folder:
+
 `cd urllib`
 
 Run the following command:
+
 `python urllib_sample.py`
 
 ## Using Beautiful Soap
 Go to `beautiful_soap` folder:
+
 `cd beautiful_soap`
 
 Run the following command:
+
 `python beautiful_sample.py`
 
 ## Using Selenium
 Go to `selenium` folder:
+
 `cd selenium`
 
 Run the following command:
+
 `python selenium_sample.py`
 
 **Note:** If you are on MAC, you may need to install `chromedriver`.
